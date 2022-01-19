@@ -6,7 +6,7 @@ import LeadText from "@material-tailwind/react/LeadText";
 import myphoto from "assets/img/myphoto.jpg";
 import useFetch from "../Hook/useFetch";
 export default function Content() {
-  const {data} = useFetch("https://api.github.com/users/Thiraphat-Dev");
+  const data = useFetch("https://api.github.com/users/Thiraphat-Dev");
   return (
     <section className="relative py-16 bg-gray-100">
       <div className="container max-w-7xl px-4 mx-auto">
